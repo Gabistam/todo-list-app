@@ -1,0 +1,20 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+  
+    .todo-title {
+      flex-grow: 1; 
+      margin-right: 10px; 
+    }
+  
+    mat-checkbox {
+      margin-right: 10px; 
+    }
+
+    .delete-icon {
+        color: red; 
+      }
+      
+  }
+
+  

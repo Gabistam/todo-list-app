@@ -1,0 +1,8 @@
+<div class="todo-item" [class.completed]="todo.completed">
+    <mat-checkbox [checked]="todo.completed" (change)="toggleComplete()"></mat-checkbox>
+    <span class="todo-title">{{ todo.title }}</span>
+    <button mat-icon-button (click)="deleteTodo()" aria-label="Supprimer la tâche">
+      <mat-icon class="delete-icon">delete</mat-icon>
+    </button>
+  </div>
+  
